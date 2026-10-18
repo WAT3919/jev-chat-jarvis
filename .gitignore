@@ -23,6 +23,7 @@ gradle.properties.local
 /cn/tools/jev/report/
 **/__pycache__/
 *.pyc
+*.log
 
 # OS
 .DS_Store
@@ -31,6 +32,7 @@ Thumbs.db
 # Never commit secrets
 *.key
 secrets.*
+/cn/tools/weibo/config.json
 
 # Prebuilt APK for direct install (tracked on purpose)
 !/cn/apk/*.apk
